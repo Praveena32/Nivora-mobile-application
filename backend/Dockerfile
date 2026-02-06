@@ -13,9 +13,9 @@ RUN npm install
 # Copy the rest of the backend files
 COPY . .
 
-# Expose the port (HF Space uses 7860)
-ENV PORT=7860
-EXPOSE 7860
+# Expose the port (Back4app/Railway typically use PORT env)
+ENV PORT=8080
+EXPOSE 8080
 
 # Start the application
 CMD [ "node", "index.js" ]
