@@ -7,4 +7,4 @@
  * For Production: Use your Render/Vercel URL (e.g., 'https://nivora-backend.onrender.com')
  */
 
-export const BACKEND_URL = 'http://192.168.43.51:3000'; // Default for Android Emulator
+export const BACKEND_URL = 'https://nivorabackend-yvnf1oaj.b4a.run'; // Live Back4App Backend
