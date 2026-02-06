@@ -111,6 +111,12 @@ app.get('/', (req, res) => {
     res.send('Nivora Alternative Backend (HF Router) is running.');
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+// IMPORTANT: Wrap the listen block so it only runs in non-serverless environments
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server is running on port ${PORT}`);
+    });
+}
+
+// Export the app for Vercel
+module.exports = app;
