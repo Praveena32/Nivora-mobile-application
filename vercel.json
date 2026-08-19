@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/backend/index.js"
+        }
+    ],
+    "functions": {
+        "backend/index.js": {
+            "includeFiles": "backend/media_data.json"
+        }
+    }
+}

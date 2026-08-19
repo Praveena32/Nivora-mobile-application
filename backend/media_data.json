@@ -1,0 +1,56 @@
+[
+    {
+        "id": "calm_1",
+        "title": "Deep Sleep Binaural Beats",
+        "category": "calm",
+        "duration": "15:00",
+        "type": "audio",
+        "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "description": "Delta waves for deep, restful sleep."
+    },
+    {
+        "id": "calm_2",
+        "title": "Zen Garden Meditation",
+        "category": "calm",
+        "duration": "10:00",
+        "type": "audio",
+        "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        "description": "A peaceful guided journey through a virtual garden."
+    },
+    {
+        "id": "fear_1",
+        "title": "Calming Nature Sounds",
+        "category": "fearful",
+        "duration": "08:00",
+        "type": "audio",
+        "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+        "description": "Forest sounds to ground your senses."
+    },
+    {
+        "id": "angry_1",
+        "title": "Cooling Rain for Anger",
+        "category": "angry",
+        "duration": "05:00",
+        "type": "audio",
+        "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+        "description": "High-intensity rain to wash away irritation."
+    },
+    {
+        "id": "sad_1",
+        "title": "Soothing Heart Melodies",
+        "category": "sad",
+        "duration": "12:00",
+        "type": "audio",
+        "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+        "description": "Gentle strings to help you process emotions."
+    },
+    {
+        "id": "lonely_1",
+        "title": "Cosmic Drift Ambience",
+        "category": "lonely",
+        "duration": "20:00",
+        "type": "audio",
+        "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+        "description": "Space-like sounds to feel connected to the universe."
+    }
+]
